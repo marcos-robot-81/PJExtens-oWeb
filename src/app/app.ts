@@ -8,7 +8,7 @@ import { Menu } from './modolos/menu/menu';
   selector: 'app-root',
   imports: [RouterOutlet, Menu],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css',]
 })
 export class App {
   protected readonly title = signal('PNaWeb');
