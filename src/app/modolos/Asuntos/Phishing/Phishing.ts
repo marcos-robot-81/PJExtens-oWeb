@@ -1,11 +1,14 @@
 import { Component } from "@angular/core";
+import { NgOptimizedImage } from "@angular/common";
 
 @Component({
     selector: 'app-phishing',
-    imports: [],
     templateUrl: './1.html',
-    styleUrl: './1.css'
+    styleUrls: ['../../../../assets/css/global.css','./1.css'],
+    imports: [NgOptimizedImage],
+
 })
 export class Phishing {
-
+IM = 'assets/images/Isca.png';
+at = "aa"
 };
