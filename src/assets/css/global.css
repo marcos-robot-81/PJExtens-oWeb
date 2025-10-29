@@ -10,11 +10,13 @@
     padding: 20px;
     width: 96vw;
     flex-wrap: wrap;  
+    justify-content: center;
+
 }
 .text{
-    margin: auto;
     width: 48vw;
     min-width: 400px;
+    margin: 0px 20px auto 0px;
 }
 .text h2{
     font-family: "Audiowide",system-ui;
@@ -39,16 +41,17 @@ img{
     min-height: 600px;
     
 }
+
+
+
 .imagem{
-padding-left: 16px;
-margin: auto;
 position: relative;
+margin: 0px 20px auto 0px;
 
 }
 
 
 footer{
-    position: relative;    
     margin-top: 50px;
     margin-top: 40px;
     height: 20px;
