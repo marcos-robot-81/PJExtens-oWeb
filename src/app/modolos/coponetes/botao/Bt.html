@@ -1,0 +1,17 @@
+<div>
+
+    <section>
+        @if(rota2 != null && rota2 != "" && rota2 != 'rota2'){
+        <button>
+            <a [routerLink]="rota2">Voltar</a>
+        </button>
+
+        }
+
+        @if(rota != null && rota != "" && rota != 'rota'){
+        <button>
+            <a [routerLink]="rota">Procimo</a>
+        </button>
+    }
+    </section>
+</div>

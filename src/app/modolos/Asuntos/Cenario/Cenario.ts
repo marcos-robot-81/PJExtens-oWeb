@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { NgOptimizedImage } from "@angular/common";
-import { Bt } from "../../coponetes/botão/Bt";
+import { Bt } from "../../coponetes/botao/Bt";
 
 @Component({
     selector: "Cenario",

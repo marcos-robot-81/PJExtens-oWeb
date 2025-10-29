@@ -8,4 +8,6 @@ import { RouterLink } from "@angular/router";
     imports: [RouterLink]
 }) export class Bt {
     @Input() rota: string = "rota";
+    @Input() rota2: string = "rota2";
+    
 }

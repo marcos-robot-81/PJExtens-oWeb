@@ -1,11 +1,12 @@
 import { Component } from "@angular/core";
 import { NgOptimizedImage } from "@angular/common";
+import { Bt } from "../../coponetes/botao/Bt";
 
 @Component({
     selector:'social',
     templateUrl: './0.html',
     styleUrls: ['../../../../assets/css/global.css','./0.css'],
-    imports: [NgOptimizedImage]
+    imports: [NgOptimizedImage, Bt]
 
 })export class Social {
 IM = 'assets/images/criminosos.png';

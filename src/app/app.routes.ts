@@ -56,3 +56,9 @@ export const routes: Routes = [
         component: Somos
     }
 ];
+
+
+//<Bt rota="social"/>
+//<footer>
+
+//</footer>
